@@ -1,0 +1,10 @@
+on post-fs-data
+    mkdir /data/simo_fs 0770 root root
+    mkdir /data/simo_fs/runspace 0770 root root
+
+service osi /system/bin/osi
+    class main
+    user root
+    group root system
+    disabled
+    oneshot

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.skyroam.silverhelper">
+		<permission name="android.permission.WRITE_SECURE_SETTINGS" />
+		<permission name="android.permission.MOVE_PACKAGE" />
+		<permission name="android.permission.READ_PRECISE_PHONE_STATE" />
+    </privapp-permissions>
+</permissions>

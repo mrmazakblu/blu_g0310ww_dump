@@ -1,0 +1,5 @@
+service tface-1-0 /vendor/bin/hw/vendor.microtrust.hardware.tface@1.0-service
+    interface vendor.microtrust.hardware.tface@1.0::ITFaceDevice default
+    class hal
+    user system
+    group system
